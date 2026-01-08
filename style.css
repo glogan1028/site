@@ -305,24 +305,20 @@ header {
     position: relative;
     width: 100%;
     max-width: 300px;
+    display: block;
 }
 
-.img-placeholder {
+.img-wrapper img {
     width: 100%;
-    padding-bottom: 100%;
-    /* Square */
-    background-color: var(--light-navy);
+    height: auto;
     border-radius: var(--border-radius);
     position: relative;
+    z-index: 1;
     transition: var(--transition);
+    display: block;
 }
 
-.img-placeholder:hover {
-    background-color: transparent;
-    outline: 2px solid var(--green);
-}
-
-.img-placeholder:after {
+.img-wrapper:after {
     content: "";
     display: block;
     position: absolute;
@@ -336,7 +332,7 @@ header {
     transition: var(--transition);
 }
 
-.img-placeholder:hover:after {
+.img-wrapper:hover:after {
     top: 15px;
     left: 15px;
 }
