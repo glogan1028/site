@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graham Logan | Portfolio</title>
+    <meta name="description" content="Personal portfolio and resume of Graham Logan.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#hero">GL</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/resume.pdf" class="btn-resume" target="_blank">Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <p class="hero-intro">Hi, my name is</p>
+            <h1 class="hero-name">Graham Logan.</h1>
+            <h2 class="hero-subtitle">I drive technical excellence in games.</h2>
+            <p class="hero-desc">
+                I'm a Senior UX/UI Producer and Technical Program Manager with over a decade of experience shipping
+                major titles like Lego Fortnite, Forza Motorsport, and Minecraft. I bridge the gap between engineering,
+                design, and production.
+            </p>
+            <a href="#experience" class="btn-primary">Check out my resume</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title"><span>01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Graham, a producer and technical PM based in Carnation, WA. My journey in the games
+                        industry has taken me from <strong>Blizzard Entertainment</strong> to <strong>Epic
+                            Games</strong>, working on some of the biggest franchises in the world.
+                    </p>
+                    <p>
+                        I specialize in distilling abstract direction into actionable tasks, managing complex technical
+                        systems, and ensuring teams are equipped to do their best work. Whether it's rebuilding
+                        authentication systems or shipping open-world survival games, I love solving hard problems.
+                    </p>
+                    <p>Here are a few technologies and skills I work with:</p>
+                    <ul class="skills-list">
+                        <li>Scrum / Agile</li>
+                        <li>JIRA / ADO</li>
+                        <li>Game Production</li>
+                        <li>Java / C++ / C#</li>
+                        <li>PowerBI</li>
+                        <li>Live Ops</li>
+                    </ul>
+                </div>
+                <div class="about-img">
+                    <div class="img-wrapper">
+                        <!-- Placeholder for profile image -->
+                        <div class="img-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Resume Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title"><span>02.</span> Where I've Worked</h2>
+            <div class="jobs-container">
+                <!-- Tab List -->
+                <div class="jobs-tabs">
+                    <button class="tab-btn active" data-id="job1">Epic Games</button>
+                    <button class="tab-btn" data-id="job2">Turn 10</button>
+                    <button class="tab-btn" data-id="job3">Mojang</button>
+                    <button class="tab-btn" data-id="job4">Epic (Identity)</button>
+                    <button class="tab-btn" data-id="job5">Blizzard</button>
+                </div>
+                <!-- Job Content -->
+                <div class="jobs-content">
+                    <!-- Job 1: Epic Games (Lego Fortnite) -->
+                    <div class="job-panel active" id="job1">
+                        <h3>Senior UX/UI Producer <span class="company">@ Epic Games</span></h3>
+                        <p class="job-duration">April 2024 – Nov 2025</p>
+                        <ul class="job-desc">
+                            <li>Sole producer for UX/UI on <strong>Lego Fortnite</strong>, including Odyssey
+                                (survival/crafting), Brick Life, and Expeditions.</li>
+                            <li>Joined prior to Expert Mode, Lost Isles, and Storm Chasers updates, adding permadeath,
+                                fast travel, and a crafting rework.</li>
+                            <li>Worked with game design and production leadership to distill abstract direction into
+                                actionable UX/UI tasks.</li>
+                            <li>Success manager for Frima Studio (mobile dev partner), creating statements of work for
+                                yearly contracts.</li>
+                        </ul>
+                    </div>
+                    <!-- Job 2: Turn 10 (Forza) -->
+                    <div class="job-panel" id="job2">
+                        <h3>Technical PM <span class="company">@ Turn 10 Studios</span></h3>
+                        <p class="job-duration">July 2022 – April 2024</p>
+                        <ul class="job-desc">
+                            <li>Shipped <strong>Forza Motorsport</strong> on Xbox and PC (84 Metacritic, Best
+                                Sports/Racing Game of the Year).</li>
+                            <li>PM for the Systems team (game state, networking, CPU scheduling). Rebuilt profile
+                                management and implemented DirectStorage.</li>
+                            <li>Created clarity on how low-level features affect the game in player-facing terms for
+                                gameplay and art teams.</li>
+                            <li>PM for Build Quality team, directing test automation and build state visibility.</li>
+                        </ul>
+                    </div>
+                    <!-- Job 3: Mojang (Minecraft) -->
+                    <div class="job-panel" id="job3">
+                        <h3>Design PM <span class="company">@ Mojang Studios</span></h3>
+                        <p class="job-duration">May 2021 – July 2022</p>
+                        <ul class="job-desc">
+                            <li>Program manager on the design team for <strong>Minecraft’s Creator Platform</strong>
+                                (tools, commands, APIs).</li>
+                            <li>Managed relationship with Blockbench, pitched modding in Bedrock, and surveyed Minecraft
+                                Partners.</li>
+                            <li>Ran team reviews for 150+ developers to create direction and excitement for core
+                                systems.</li>
+                        </ul>
+                    </div>
+                    <!-- Job 4: Epic (Identity) -->
+                    <div class="job-panel" id="job4">
+                        <h3>Producer <span class="company">@ Epic Games</span></h3>
+                        <p class="job-duration">May 2019 – May 2021</p>
+                        <ul class="job-desc">
+                            <li>Producer for the 15+ person Identity team, owning services for account use and
+                                management.</li>
+                            <li>Partnered for integrations like YouTube account linking (Fortnite World Cup) and Intel
+                                entitlements.</li>
+                            <li>Major projects: COPPA compliance, SMS 2FA, Apple/Steam sign-in, and Rocket League
+                                account merge.</li>
+                        </ul>
+                    </div>
+                    <!-- Job 5: Blizzard -->
+                    <div class="job-panel" id="job5">
+                        <h3>Associate PM <span class="company">@ Blizzard</span></h3>
+                        <p class="job-duration">Feb 2016 – April 2019</p>
+                        <ul class="job-desc">
+                            <li>Member of <strong>Battle.net</strong> ecommerce team, specializing in purchasing and
+                                account data.</li>
+                            <li>Drove a strike team to rebuild <strong>Heroes of the Storm</strong> authentication
+                                systems.</li>
+                            <li>Projects: Battle.net subscriptions, WoW migration, product bundles, and GDPR compliance.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects / Portfolio Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title"><span>03.</span> Some Things I've Built</h2>
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="img-placeholder"></div>
+                </div>
+                <div class="project-content">
+                    <p class="project-overline">Featured Project</p>
+                    <h3 class="project-title">Lego Fortnite</h3>
+                    <div class="project-desc">
+                        <p>Sole producer for UX/UI on Lego Fortnite Odyssey. Managed the delivery of critical updates
+                            including Expert Mode, Lost Isles, and Storm Chasers, adding features like permadeath, fast
+                            travel, and a total crafting rework.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Production</li>
+                        <li>UX/UI</li>
+                        <li>Live Ops</li>
+                        <li>Cross-platform</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card reverse">
+                <div class="project-content">
+                    <p class="project-overline">Featured Project</p>
+                    <h3 class="project-title">Forza Motorsport</h3>
+                    <div class="project-desc">
+                        <p>Shipped the award-winning Forza Motorsport on Xbox and PC. Managed the Systems team
+                            responsible for game state, networking, and texture streaming. Implemented DirectStorage and
+                            rebuilt profile management.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Technical PM</li>
+                        <li>Xbox/PC</li>
+                        <li>DirectStorage</li>
+                        <li>Networking</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <div class="img-placeholder"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="container">
+            <h2 class="section-title"><span>04.</span> From the Blog</h2>
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card">
+                    <div class="blog-card-header">
+                        <div class="blog-meta">
+                            <span class="blog-date">Oct 12, 2025</span>
+                            <span class="blog-tag">Production</span>
+                        </div>
+                        <h3 class="blog-title"><a href="#">Managing Live Ops at Scale</a></h3>
+                    </div>
+                    <div class="blog-card-content">
+                        <p>
+                            Shipping the game is just the beginning. Here's how we managed the content pipeline for Lego
+                            Fortnite's weekly updates.
+                        </p>
+                    </div>
+                    <div class="blog-card-footer">
+                        <a href="#" class="blog-link">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-card-header">
+                        <div class="blog-meta">
+                            <span class="blog-date">Sep 28, 2025</span>
+                            <span class="blog-tag">Tech</span>
+                        </div>
+                        <h3 class="blog-title"><a href="#">DirectStorage in Forza</a></h3>
+                    </div>
+                    <div class="blog-card-content">
+                        <p>
+                            Reducing load times was critical for the new Forza Motorsport. A deep dive into how we
+                            implemented DirectStorage.
+                        </p>
+                    </div>
+                    <div class="blog-card-footer">
+                        <a href="#" class="blog-link">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card">
+                    <div class="blog-card-header">
+                        <div class="blog-meta">
+                            <span class="blog-date">Aug 15, 2025</span>
+                            <span class="blog-tag">Career</span>
+                        </div>
+                        <h3 class="blog-title"><a href="#">From QA to Producer</a></h3>
+                    </div>
+                    <div class="blog-card-content">
+                        <p>
+                            Reflecting on my decade-long journey through the games industry, from Blizzard to Epic
+                            Games.
+                        </p>
+                    </div>
+                    <div class="blog-card-footer">
+                        <a href="#" class="blog-link">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="blog-more">
+                <a href="#" class="btn-primary">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <p class="contact-overline">05. What's Next?</p>
+            <h2 class="contact-title">Get In Touch</h2>
+            <p class="contact-desc">
+                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll
+                try my best to get back to you!
+            </p>
+            <a href="mailto:Glogan92@outlook.com" class="btn-primary big-btn">Say Hello</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/tglogan" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:Glogan92@outlook.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="copyright">Designed & Built by Graham Logan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
